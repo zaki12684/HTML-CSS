@@ -1,0 +1,166 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #5441b5;
+  margin: 0;
+  padding: 40px 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.2em;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-left: 4px solid #407ad7;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #2980b9;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.key-points {
+  background: linear-gradient(90deg, #d9f3f3, #f8dede);
+  border-left: 4px solid #e74c3c;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.key-points ul {
+  margin: 8px 0 0 20px;
+}
+
+.key-points li {
+  margin-bottom: 6px;
+}
+
+.code-box {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: "Consolas", monospace;
+  position: relative;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+
+.label {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 0.75em;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #ecf0f1;
+}
+
+.live-box {
+  border: 2px solid #dce3ea;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+}
+
+.demo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.demo-form input, .demo-form select, .demo-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.demo-form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.demo-form button:hover {
+  background-color: #2980b9;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #d9f3f3, #f8dede);
+}
+
+.center {
+  text-align: center;
+}
+
+.card-center{
+background: linear-gradient(#5441b5, #2980b9);
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-left: 4px solid #407ad7;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+.card-center h2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
